@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel = "stylesheet" href = "../static/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script defer src = "../static/script.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Snehal Paliwal">
+    <meta name="keywords" content="Carnegie Mellon University, Information Systems">
+    <meta name="description" content="Snehal Paliwal Professional Website">
+    <title>Snehal Paliwal</title>
+</head>
+<body onload= " addYear()">
+    <header>
+        <h1 id = "webname">Snehal Paliwal</h1>
+        <nav  id="myTopnav" class="topnav">
+            <a href = "index.html" class="active">Home</a>
+            <a href = "cv.html">CV</a>
+            <a href = "contact.html">Contact Me</a>
+            <a href = "fun.html">For Fun</a>
+            <a href="javascript:void(0);" class="icon" >
+                <i class="fa fa-bars" onclick="activeNav()"></i> 
+            </a>
+        </nav>
+    </header>
+    <div class = "main">
+        <h2 id = "greeting"></h2>
+        <img
+            src="../static/headshot.jpg"
+            alt="Snehal Paliwal Profile Image"
+            width=25%
+            height=25%
+            class= "classA"
+        >
+        <div class = "classA"> 
+            <!--
+            <p id = "intro">
+                Hello! My name is Snehal Paliwal and I am a first-year student at Carnegie Mellon University studying Information Systems. As someone fascinated by the analytical, creative, and strategic applications of technology, I hope to explore careers in Data, Product, and Technical Consulting. As an avid steminst, I hope to be able to represent a growing population of women in technical fields and be actively involved and engaged with technological advancements and what they mean for society, whether it is artificial intelligence, the growing “internet of things”, or assistive technology that enables all members of society, to name a few. On campus you can find me navigating projects with the CMU Undergraduate Consulting Club, cultivating a community with Women in Information Systems, or dancing in one of the many on-campus studios with CMU Bhangra. Outside of academic, professional, extracurricular settings, I am someone that loves to engage in the arts through drawing and dancing, go on hikes, figure skate, travel, and spend time with my family and friends. 
+            </p>
+            -->
+            <span id = "shortIntro">Hello! My name is Snehal Paliwal and I am a first-year student at Carnegie Mellon University studying Information Systems. As someone fascinated by the analytical, creative, and strategic applications of technology, I hope to explore careers in Data, Product, and Technical Consulting. As an avid steminst, I hope to be able to represent a growing population of women in technical fields and be actively involved and engaged with technological advancements and what they mean for society, whether it is artificial intelligence, the growing “internet of things”, or assistive technology that enables all members of society, to name a few. </span>
+            <span id = "readMore"> read more...</span>
+            <span id = "longIntro">On campus you can find me navigating projects with the CMU Undergraduate Consulting Club, cultivating a community with Women in Information Systems, or dancing in one of the many on-campus studios with CMU Bhangra. Outside of academic, professional, extracurricular settings, I am someone that loves to engage in the arts through drawing and dancing, go on hikes, figure skate, travel, and spend time with my family and friends. </span>
+            <span id = "readLess"> read less</span>
+        </div>
+    </div>
+    <footer>
+        <p id="copyYear">Snehal Paliwal &copy</p>
+    </footer>
+</body>
+</html>
